@@ -6,13 +6,11 @@ import { MyContext } from "../../context";
 import { useParams } from "react-router-dom";
 import AutomateProcess from "../AutomateProcess/AutomateProcess";
 import HrResponsibilities from "../HrResponsibilities/HrResponsibilities";
+import Coleboration from "../Coleboration/Coleboration";
 
 const ReadMoreButtonsPages = ({ vol }) => {
   const [pageData, setPageData]= useState([]);
   const { readMorePages } = HomePageContent;
-  //   const id = 4;
-  // const id = useMyContext()
-  // const { value, setValue } = useMyContext();
 
   const [value, setValue] = useContext(MyContext);
   const [idToLoadPage, setidToLoadPage] = useState(value);
@@ -39,7 +37,7 @@ const ReadMoreButtonsPages = ({ vol }) => {
        <ContactUs
       pageData={pageData}
       />
-      <HrResponsibilities
+      <Coleboration
        pageData={pageData}
       />
     </div>

@@ -9,15 +9,14 @@ const Hero = ({ pageData }) => {
   return (
     <div className="coustomBg">
       <div className="container-fluid container-md pt-4">
-        <div className="row justify-content-between">
+        <div className="row justify-content-between coustomTextMarginHero">
           {/* start hero left text--------------------- */}
-          <div className=" pb-4 col-md-6 z-index-1">
-            <div className="bookingBackgroundCoustom">
+          <div className="my-auto pb-4 col-md-6 z-index-1">
+          <div className="bookingBackgroundCoustom">
                <p className="bookingText">
               Booking Management System
             </p>
             </div>
-           
             <div className="mt-2">
               <h1 className="clindexHeroHeading d-none d-md-block">{pageData.length > 0 && pageData[0]?.heroHeadingWebHomePageTitel}</h1>
               <h3 className="clindexHeroTitel d-none d-md-block">
@@ -36,9 +35,9 @@ const Hero = ({ pageData }) => {
             </p>
             <div className="d-flex justify-content-between justify-content-md-start buttonsRowHero gap-2">
               <div className="letsTalkButtonBox">
-                <p className=" letsTalkCoustomText">Let's Talk</p>
+                <p className="letsTalkCoustomText">Let's Talk</p>
               </div>
-              <Link to={`${pageData.length > 0 && pageData[0]?.heroLearnMoreButton}`} className={` text-decoration-none d-${pageData.length > 0 && pageData[0]?.heroLearnMoreButtonVisibility}`} onClick={() => {
+              <Link to={`${pageData.length > 0 && pageData[0]?.heroLearnMoreButton}`} className={`pb-4 text-decoration-none d-${pageData.length > 0 && pageData[0]?.heroLearnMoreButtonVisibility}`} onClick={() => {
                 window.scrollTo(0, 0)
                 }} >
                <div className="learnButtonButtonBoxHero">
@@ -53,13 +52,13 @@ const Hero = ({ pageData }) => {
 
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
-          <div className="col-md-6">
+          {/* <div className="col-md-4">
             <img
               src={WomanImageForHeroSection}
               alt="hero woman model"
               className="heroWomanImageHomePage "
             />
-          </div>
+          </div> */}
 
           {/* end hero right image--------------------- */}
         </div>

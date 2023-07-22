@@ -4,7 +4,8 @@ import Hero from "../Hero/Hero";
 import { HomePageContent, defaultData } from "../../static/Content";
 import { useParams } from "react-router-dom";
 import AutomateProcess from "../AutomateProcess/AutomateProcess";
-import HrResponsibilities from "../HrResponsibilities/HrResponsibilities";
+// import SmartInventoryReporting from '../SmartInventoryReporting/SmartInventoryReporting'
+import Coleboration from "../Coleboration/Coleboration";
 
 
 const Home = () => {
@@ -35,8 +36,12 @@ const Home = () => {
          <ContactUs
       pageData={pageData}
       />
-<HrResponsibilities
+{/* 
+<SmartInventoryReporting
  pageData={pageData}
+/> */}
+<Coleboration
+pageData={pageData}
 />
     </div>
   );

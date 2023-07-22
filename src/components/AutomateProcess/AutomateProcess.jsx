@@ -6,7 +6,7 @@ import { CashControlIcon, MoneyInfoIcon, MoneyMapingIcon } from "../../assets";
 const AutomateProcess = ({ pageData }) => {
   return (
     <div className={Style.componentArrangement}>
-      <div className="container px-2">
+      <div className="container px-2 ">
         <div className="d-flex flex-column flex-md-row mx-auto mx-md-0">
           {/* start first section----------------- */}
           <div className="col-md-6">

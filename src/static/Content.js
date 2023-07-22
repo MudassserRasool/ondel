@@ -1,6 +1,10 @@
 
 import { CashControlIcon, MoneyInfoIcon, MoneyMapingIcon } from "../assets/index";
-
+import {
+  AiScheduler,
+  AiPowerAutomationIcon,
+  AiBookingIcon,
+} from "../assets/index";
 export const defaultData = [
   {
     id: 1,
@@ -22,6 +26,13 @@ export const defaultData = [
       "The best HR Management module that simplifies employee onboarding & provides a single platform for all employee-related data. You can manage employee records, track performance, & monitor attendance in one place.",
     automateProcessButton: "/learn-more-hr-features/2",
     automateProcessButtonVisibility: "block",
+
+
+    InventoryReportingHeadingBlueLatter: "Inventory blue",
+    InventoryReportingHeadingBlackLatter: "Reports black",
+    InventoryReportingPara:
+      "Helping generate inventory reports, including stock levels, inventory valuation, & inventory turnover.",
+
     automateProcessItems: [
       {
         icon: `${CashControlIcon}`,
@@ -74,6 +85,27 @@ export const defaultData = [
     ],
     learnMoreHrResponsibilities : "/learn-more-hr-features/4",
     learnMoreHrResponsibilitiesVisibility : "block",
+
+    // inventory mannagemen items
+    InventoryReportingItems: [
+      {
+        icon: `${AiScheduler}`,
+        heading: "Smart Decisions",
+        para: "Helping generate inventory reports, including stock levels, inventory valuation, & inventory turnover.",
+      },
+      {
+        icon: `${AiPowerAutomationIcon}`,
+        heading: "Informed Management",
+        para: "The reports & ABC analysis help users make informed decisions about their inventory management.",
+      },
+      {
+        icon: `${AiBookingIcon}`,
+        heading: "Kit Control",
+        para: "Kitting & assembly management, inventory optimization, integration with shipping & fulfillment.",
+      },
+    ],
+    learnMoreInventoryReporting: "/learn-more-stock",
+    learnMoreInventoryReportingVisibility: "block",
   },
 ];
 

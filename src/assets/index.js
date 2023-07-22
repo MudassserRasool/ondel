@@ -16,6 +16,7 @@ import CashControlIcon from "./CashControlIcon.png";
 import MoneyInfoIcon from "./MoneyInfoIcon.png";
 import ContactUsAnimation from './ContactUsAnimation.png'
 import HrResponsibilitiesGirlImage from './HrResponsibilitiesGirlImage.png'
+import ColaborationConnectionIcon from './ColaborationConnectionIcon.png'
 export {
   PlexarLogo,
   UserAccountIcon,
@@ -35,4 +36,5 @@ export {
   MoneyInfoIcon,
   ContactUsAnimation,
   HrResponsibilitiesGirlImage,
+  ColaborationConnectionIcon,
 };
