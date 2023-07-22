@@ -52,15 +52,7 @@ const Hero = ({ pageData }) => {
 
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
-<<<<<<< HEAD
-          {/* <div className="col-md-4">
-            <img
-              src={WomanImageForHeroSection}
-              alt="hero woman model"
-              className="heroWomanImageHomePage "
-            />
-          </div> */}
-=======
+
           <div className="col-md-6">
           <img
         src={WomanImageForHeroSection}
@@ -75,7 +67,6 @@ const Hero = ({ pageData }) => {
         />
       )}
           </div>
->>>>>>> 4d08b66720c7ba1828167ad2bfff23aaa3c3a347
 
           {/* end hero right image--------------------- */}
         </div>
