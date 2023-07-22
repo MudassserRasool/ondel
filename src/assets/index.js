@@ -1,7 +1,7 @@
 import PlexarLogo from "./PlexarLogo.png";
 import UserAccountIcon from "./UserAccountIcon.png";
 import WomanImageForHeroSection from "./WomanImageForHeroSection.png";
-import WomanImageForHeroSectionForSmallerSceen from "./WomanImageForHeroSectionForSmallerSceen.png";
+import WomanImageForHeroSectionMobileVersion from "./WomanImageForHeroSectionMobileVersion.png";
 import MannagementGroupWorkingImgae from "./MannagementGroupWorkingImgae.png";
 import AiBookingIcon from "./AiBookingIcon.png";
 import AnimatedStatisticsMobileImage from "./AnimatedStatisticsMobileImage.png";
@@ -21,7 +21,7 @@ export {
   PlexarLogo,
   UserAccountIcon,
   WomanImageForHeroSection,
-  WomanImageForHeroSectionForSmallerSceen,
+  WomanImageForHeroSectionMobileVersion,
   MannagementGroupWorkingImgae,
   AiBookingIcon,
   AnimatedStatisticsMobileImage,

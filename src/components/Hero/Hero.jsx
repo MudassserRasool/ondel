@@ -1,11 +1,11 @@
 import React, { useState, useContext } from "react";
 import "./Hero.css";
-import { WomanImageForHeroSection } from "../../assets";
+import { WomanImageForHeroSection, WomanImageForHeroSectionMobileVersion } from "../../assets/index";
 import { Link } from "react-router-dom";
 // import { MyContext } from "../../context";
 
 const Hero = ({ pageData }) => { 
-
+  const isMobileScreen = window.innerWidth <= 768;
   return (
     <div className="coustomBg">
       <div className="container-fluid container-md pt-4">
@@ -52,6 +52,7 @@ const Hero = ({ pageData }) => {
 
           {/* end hero left text--------------------- */}
           {/* start hero right image--------------------- */}
+<<<<<<< HEAD
           {/* <div className="col-md-4">
             <img
               src={WomanImageForHeroSection}
@@ -59,6 +60,22 @@ const Hero = ({ pageData }) => {
               className="heroWomanImageHomePage "
             />
           </div> */}
+=======
+          <div className="col-md-6">
+          <img
+        src={WomanImageForHeroSection}
+        alt="hero woman model"
+        className={`heroWomanImageHomePage ${isMobileScreen ? "hideOnMobile" : "showOnMobile"}`}
+      />
+      {isMobileScreen && (
+        <img
+          src={WomanImageForHeroSectionMobileVersion}
+          alt="hero woman model (mobile version)"
+          className={`heroWomanImageHomePage ${isMobileScreen ? "showOnMobile" : "hideOnMobile"}`}
+        />
+      )}
+          </div>
+>>>>>>> 4d08b66720c7ba1828167ad2bfff23aaa3c3a347
 
           {/* end hero right image--------------------- */}
         </div>
